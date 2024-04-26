@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+	  <Version>1.0.1</Version>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -8,7 +9,12 @@
 	  <Authors>
 		  Chandan Bhagat
 	  </Authors>
-	  <RepositoryUrl></RepositoryUrl>
+	  <RepositoryUrl>https://github.com/thechandanbhagat/dotnet-essesntials.git</RepositoryUrl>
+	  <Title>Dotnet Essentials</Title>
+	  <PackageProjectUrl>https://github.com/thechandanbhagat/dotnet-essesntials</PackageProjectUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>dotnet;essentials;</PackageTags>
+	  <PackageId>dotnet-essential</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
