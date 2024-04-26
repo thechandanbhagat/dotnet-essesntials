@@ -12,8 +12,9 @@ namespace DotnetEssentials.AzureFunction.Extension
     public static class ConfigurationExtension
     {
         public static TModel LoadConfig<TModel>(this IConfiguration config)
+            where TModel : class
         {
-            var ret = default(TModel);
+            var ret = Activator.CreateInstance<TModel>();
             var props = ret.GetType().GetProperties();
             foreach (var prop in props)
             {
