@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <Version>1.0.1</Version>
+	  <Version>1.0.3</Version>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -15,10 +15,29 @@
 	  <RepositoryType>git</RepositoryType>
 	  <PackageTags>dotnet;essentials;</PackageTags>
 	  <PackageId>dotnet-essential</PackageId>
+	  <PackageIcon>_fd10e521-0fd2-4500-872e-e746c1b91a25.jpg</PackageIcon>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="_fd10e521-0fd2-4500-872e-e746c1b91a25.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
