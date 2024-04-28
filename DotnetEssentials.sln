@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetEssentials", "DotnetEssentials\DotnetEssentials.csproj", "{8FED42D2-32BC-48BD-9576-4D9622C766A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetEssentials", "DotnetEssentials\DotnetEssentials.csproj", "{8FED42D2-32BC-48BD-9576-4D9622C766A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetEssesntials.AzureFunction", "DotnetEssesntials.AzureFunction\DotnetEssesntials.AzureFunction.csproj", "{1ECE49D6-24C0-4B81-AF39-E6E44DCEB57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetEssentials.Wpf", "DotnetEssentials.Wpf\DotnetEssentials.Wpf.csproj", "{4D739B87-4B70-4E7B-8398-D114D77FA0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetEssentials.AspNet.Core", "DotnetEssentials.AspNet.Core\DotnetEssentials.AspNet.Core.csproj", "{5F622A7F-3939-456F-A6FC-6AF4F22B0D07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{8FED42D2-32BC-48BD-9576-4D9622C766A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FED42D2-32BC-48BD-9576-4D9622C766A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FED42D2-32BC-48BD-9576-4D9622C766A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECE49D6-24C0-4B81-AF39-E6E44DCEB57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECE49D6-24C0-4B81-AF39-E6E44DCEB57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECE49D6-24C0-4B81-AF39-E6E44DCEB57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECE49D6-24C0-4B81-AF39-E6E44DCEB57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D739B87-4B70-4E7B-8398-D114D77FA0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D739B87-4B70-4E7B-8398-D114D77FA0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D739B87-4B70-4E7B-8398-D114D77FA0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D739B87-4B70-4E7B-8398-D114D77FA0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F622A7F-3939-456F-A6FC-6AF4F22B0D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F622A7F-3939-456F-A6FC-6AF4F22B0D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F622A7F-3939-456F-A6FC-6AF4F22B0D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F622A7F-3939-456F-A6FC-6AF4F22B0D07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
