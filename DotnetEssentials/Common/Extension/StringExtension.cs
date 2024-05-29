@@ -75,4 +75,9 @@ public static class StringExtension
         byte[] bytes = Convert.FromBase64String(str);
         return System.Text.Encoding.UTF8.GetString(bytes);
     }
+
+    public static string DefaultValueIfNull(this string str, string defaultValue)
+    {
+        return string.IsNullOrWhiteSpace(str) ? defaultValue : str;
+    }
 }
